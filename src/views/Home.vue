@@ -1,9 +1,5 @@
 <template>
-  <div class="home">
-    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-    <h1>MARVUE</h1>
-    <Welcome msg="Best boilerplate Vuejs"/>
-  </div>
+  <Welcome/>
 </template>
 
 <script>
