@@ -60,7 +60,7 @@ These are some of patterns definitions to help us to keep a default arquitecture
 - Package manager: [npm](https://medium.com/@vincentnewkirk/npm-vs-yarn-2019-e88757b17038), sure
 - Node version: [v10.x](https://nodejs.org/ca/blog/release/v10.16.3)
 - Background: [Vue CLI](https://cli.vuejs.org)
-- UI Kit library: [Vue Material](https://vuematerial.io)
+- UI Kit library: [Vuetify js](https://vuetifyjs.com)
 - Linter: [standardjs](https://standardjs.com) and [vue/recommended](https://github.com/vuejs/eslint-plugin-vue)
 - Http Requests: [Axios](https://github.com/axios/axios#features)
 - i18n: [vue-i18n](https://www.npmjs.com/package/vue-i18n)
