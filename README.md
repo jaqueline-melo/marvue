@@ -7,7 +7,7 @@
 The main goal of **Marvue** is to set patterns to be followed by any front-end developer working on Vue JS projects.
 
 <p align="center">
-	<img src="https://i.imgur.com/WEinXJu.jpg" width="400px" />
+	<img src="https://i.imgur.com/Bg3mtGB.png" width="400px" />
 </p>
 
 ## Startup
