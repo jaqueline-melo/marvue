@@ -68,7 +68,7 @@ These are some of patterns definitions to help us to keep a default arquitecture
 
 Here is component's and UI libs dependencies:
 
-- Charts: [react-apexcharts](https://apexcharts.com/docs/vue-charts)
+- Charts: [vue-apexcharts](https://apexcharts.com/docs/vue-charts)
 - Vue Material: [vue-material](http://npmjs.com/package/vue-material)
 
 ### Project structure
