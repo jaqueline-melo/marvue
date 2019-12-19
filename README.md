@@ -1,4 +1,4 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/marco-tulio-melo/marvue)
+<a href="https://www.codefactor.io/repository/github/marco-tulio-melo/marvue"><img src="https://www.codefactor.io/repository/github/marco-tulio-melo/marvue/badge" alt="CodeFactor" /></a>
 
 # MARVUE
 
