@@ -17,7 +17,7 @@ Step by step to get this up and running
 ### Clone repo and go to project folder
 
 ```
-git clone https://github.com/marco-tulio-melo/marvue.git && cd reactbuster
+git clone https://github.com/marco-tulio-melo/marvue.git && cd marvue
 ```
 
 ### Install dependencies
