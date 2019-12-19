@@ -1,12 +1,10 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/marco-tulio-melo/marvue/badge)](https://www.codefactor.io/repository/github/marco-tulio-melo/marvue)
+[![CodeFactor](https://www.codefactor.io/repository/github/marco-tulio-melo/marvue)
 
 # MARVUE
 
 ## A boilerplate to `assemble` your team. Whatever it takes.
 
 The main goal of **Marvue** is to set patterns to be followed by any front-end developer working on Vue JS projects.
-
-*It was inspired by [Juggernaut](https://github.com/SoftboxLab/juggernaut)*.
 
 <p align="center">
 	<img src="https://i.imgur.com/WEinXJu.jpg" width="400px" />
