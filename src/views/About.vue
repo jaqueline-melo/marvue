@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>MARVUE</h1>
-    <Welcome msg="Best boilerplate Vuejs"/>
+    <Welcome msg="Best boilerplate Vuejs" />
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 import Welcome from '@/components/Welcome.vue'
 
 export default {
-  name: 'about',
+  name: 'About',
   components: {
     Welcome
   }
