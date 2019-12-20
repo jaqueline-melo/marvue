@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+  api:
+    build: ./docker/bin/nodejs
+    image: api
+    container_name: marvue-app
+    environment:
+      - NODE_ENV=development
+    command: npm run serve
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/app

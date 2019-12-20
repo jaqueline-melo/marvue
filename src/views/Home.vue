@@ -2,7 +2,7 @@
   <div class="home">
     <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
     <h1>MARVUE</h1>
-    <Welcome msg="Best boilerplate Vuejs"/>
+    <Welcome msg="Best boilerplate Vuejs" />
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 import Welcome from '@/components/Welcome.vue'
 
 export default {
-  name: 'home',
+  name: 'Home',
   components: {
     Welcome
   }
