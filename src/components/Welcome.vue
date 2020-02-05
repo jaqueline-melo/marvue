@@ -12,7 +12,7 @@
         </h1>
 
       </v-flex>
-
+  
       <v-flex
         mb-5
         xs12
@@ -47,16 +47,35 @@
             {{ eco.text }}
           </a>
         </v-layout>
+      </v-flex >
+       <v-flex xs12 mb-5 justify-center>
+          <h2 class="headline font-weight-bold mb-3 white--text">Graphic</h2>
+        <v-layout justify-center>
+          <apexchart width="500" type="bar" :options="options" :series="series"></apexchart>
+       </v-layout>
       </v-flex>
     </v-layout>
   </v-container>
 </template>
 
 <script>
+
 export default {
   name: 'HelloWorld',
 
   data: () => ({
+     options: {
+        chart: {
+          id: 'vuechart-example'
+        },
+        xaxis: {
+          categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998]
+        }
+      },
+      series: [{
+        name: 'series-1',
+        data: [30, 40, 45, 50, 49, 60, 70, 91]
+      }],
     ecosystem: [
       {
         text: 'vuetify-loader',
