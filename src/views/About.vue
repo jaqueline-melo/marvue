@@ -1,24 +1,28 @@
 <template>
-  <div class="about">
-    <h1>MARVUE</h1>
-    <Welcome msg="Best boilerplate Vuejs" />
-  </div>
+
+   <v-container>
+  <v-layout text-cente wrap>
+
+    <v-flex xs12>
+        <v-img :src="require('../assets/logo.svg')" class="my-3" contain height="200"></v-img>
+    </v-flex>
+    
+  </v-layout>
+
+</v-container>
+
 </template>
 
 <script>
-// @ is an alias to /src
-import Welcome from '@/components/Welcome.vue'
 
 export default {
   name: 'About',
   components: {
-    Welcome
   }
 }
 </script>
 
 <style scoped>
-.about{
-  height: 100vh;
-}
+
 </style>
+
