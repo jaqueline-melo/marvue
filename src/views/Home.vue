@@ -1,7 +1,5 @@
 <template>
-
-  <Welcome/>
-
+  <Welcome />
 </template>
 
 <script>

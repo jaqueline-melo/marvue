@@ -3,5 +3,6 @@
 docs
 node_modules
 docker
+plugins
 
 # Files

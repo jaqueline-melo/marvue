@@ -16,6 +16,7 @@
       <v-flex mb-4>
         <h1 class="display-1 font-weight-bold mb-3 white--text">
           Best boilerplate VueJS
+          <p>{{ someDate | moment("YYYY") }}</p>
         </h1>
       </v-flex>
 
@@ -99,8 +100,8 @@
 <script>
 export default {
   name: 'HelloWorld',
-
   data: () => ({
+    someDate: new Date(),
     options: {
       chart: {
         id: 'vuechart-example'
