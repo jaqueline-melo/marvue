@@ -3,9 +3,11 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
-import vuetify from './plugins/vuetify';
+import vuetify from './plugins/vuetify'
 import VueApexCharts from 'vue-apexcharts/dist/vue-apexcharts'
+import VueTheMask from 'vue-the-mask'
 
+Vue.use(VueTheMask)
 
 Vue.component('apexchart', VueApexCharts)
 
@@ -15,5 +17,5 @@ new Vue({
   router,
   store,
   vuetify,
-  render: h => h(App)
+  render: el => el(App)
 }).$mount('#app')
