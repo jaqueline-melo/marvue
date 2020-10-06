@@ -1,6 +1,6 @@
-<a href="https://www.codefactor.io/repository/github/marco-tulio-melo/marvue"><img src="https://www.codefactor.io/repository/github/marco-tulio-melo/marvue/badge" alt="CodeFactor" /></a>
-
 # MARVUE
+
+<a href="https://www.codefactor.io/repository/github/marco-tulio-melo/marvue"><img src="https://www.codefactor.io/repository/github/marco-tulio-melo/marvue/badge" alt="CodeFactor" /></a>
 
 ## A boilerplate to `assemble` your team. Whatever it takes.
 
@@ -10,31 +10,32 @@ The main goal of **Marvue** is to set patterns to be followed by any front-end d
 	<img src="https://i.imgur.com/Bg3mtGB.png" width="400px" />
 </p>
 
-## Startup
+## :rocket: Startup
 
 Step by step to get this up and running
 
 ### Clone repo and go to project folder
 
-```
-git clone https://github.com/marco-tulio-melo/marvue.git && cd marvue
+```sh
+$ git clone https://github.com/marco-tulio-melo/marvue.git && cd marvue
 ```
 
 ### Install dependencies
 
-```bash
-npm install
+```sh
+$ npm install
 ```
 
 ### Start server
 
-```bash
-npm run serve
+```sh
+$ npm run serve
 ```
 
 ### Compiles and minifies for production
-```
-npm run build
+
+```sh
+$ npm run build
 ```
 
 To check it on the browser, simply go to: `http://localhost:8080`
@@ -42,7 +43,7 @@ To check it on the browser, simply go to: `http://localhost:8080`
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-## Git flow
+## :trident: Git flow
 
 To file a new a feature
 
@@ -51,7 +52,7 @@ To file a new a feature
 - since your PR is aproved, it will be merged to `master` branch
 - in a moment in time we'll create a release, using the pattern: `release/vX.X.X`
 
-## Patterns
+## :heavy_check_mark: Patterns
 
 These are some of patterns definitions to help us to keep a default arquitecture.
 
@@ -64,14 +65,14 @@ These are some of patterns definitions to help us to keep a default arquitecture
 - i18n: [vue-i18n](https://www.npmjs.com/package/vue-i18n)
 - Docker compose and dockerfile
 
-# Components
+## :floppy_disk: Components
 
 Here is component's and UI libs dependencies:
 
 - Charts: [vue-apexcharts](https://apexcharts.com/docs/vue-charts)
 - Vuetify: [Vuetify](https://vuetifyjs.com/pt-BR/)
 
-### Project structure
+## :open_file_folder: Project structure
 
 - **src/assets**: Static files (images, fonts and icons)
 - **src/common**: Utilities, resources, constants, assets, configurations, i18n and others
@@ -79,3 +80,12 @@ Here is component's and UI libs dependencies:
 - **src/containers**: Page components that apply business knowledge and present themselves as pages
 - **src/routes**: Routes of app to be used by SPA and user navigation
 - **src/store**: State management
+
+<div id='license'/>
+
+## :scroll: License 
+
+```
+MIT license. Copyright (c) 2020 Marco Túlio Melo.
+For more information, see the LICENSE file.
+```
