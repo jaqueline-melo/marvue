@@ -8,6 +8,8 @@ import VueApexCharts from 'vue-apexcharts/dist/vue-apexcharts'
 import VueTheMask from 'vue-the-mask'
 import VueMoment from 'vue-moment'
 
+import VueReal from 'vue-real'
+
 Vue.use(VueTheMask)
 Vue.use(VueMoment);
 
